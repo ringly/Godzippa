@@ -25,6 +25,9 @@
 		4320A8541BB2030C00AE91E2 /* NSFileManager+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4320A8331BB1FF4100AE91E2 /* NSFileManager+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4320A8551BB2030C00AE91E2 /* Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4320A82B1BB1FEDB00AE91E2 /* Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4320A8561BB2030C00AE91E2 /* NSData+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4320A8311BB1FF4100AE91E2 /* NSData+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4320A86F1BB2075300AE91E2 /* GodzippaDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4320A86E1BB2075300AE91E2 /* GodzippaDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4320A8701BB2075300AE91E2 /* GodzippaDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4320A86E1BB2075300AE91E2 /* GodzippaDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4320A8711BB2075300AE91E2 /* GodzippaDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4320A86E1BB2075300AE91E2 /* GodzippaDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,7 @@
 		4320A83B1BB1FF9300AE91E2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4320A84B1BB2002C00AE91E2 /* Godzippa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Godzippa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4320A85B1BB2030C00AE91E2 /* Godzippa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Godzippa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4320A86E1BB2075300AE91E2 /* GodzippaDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodzippaDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				4320A82B1BB1FEDB00AE91E2 /* Godzippa.h */,
+				4320A86E1BB2075300AE91E2 /* GodzippaDefines.h */,
 				4320A8311BB1FF4100AE91E2 /* NSData+Godzippa.h */,
 				4320A8321BB1FF4100AE91E2 /* NSData+Godzippa.m */,
 				4320A8331BB1FF4100AE91E2 /* NSFileManager+Godzippa.h */,
@@ -110,6 +115,7 @@
 				4320A8381BB1FF4100AE91E2 /* NSFileManager+Godzippa.h in Headers */,
 				4320A82C1BB1FEDB00AE91E2 /* Godzippa.h in Headers */,
 				4320A8361BB1FF4100AE91E2 /* NSData+Godzippa.h in Headers */,
+				4320A86F1BB2075300AE91E2 /* GodzippaDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +126,7 @@
 				4320A8441BB2002C00AE91E2 /* NSFileManager+Godzippa.h in Headers */,
 				4320A8451BB2002C00AE91E2 /* Godzippa.h in Headers */,
 				4320A8461BB2002C00AE91E2 /* NSData+Godzippa.h in Headers */,
+				4320A8701BB2075300AE91E2 /* GodzippaDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 				4320A8541BB2030C00AE91E2 /* NSFileManager+Godzippa.h in Headers */,
 				4320A8551BB2030C00AE91E2 /* Godzippa.h in Headers */,
 				4320A8561BB2030C00AE91E2 /* NSData+Godzippa.h in Headers */,
+				4320A8711BB2075300AE91E2 /* GodzippaDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +641,7 @@
 				4320A82F1BB1FEDB00AE91E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4320A8481BB2002C00AE91E2 /* Build configuration list for PBXNativeTarget "Godzippa-iOS" */ = {
 			isa = XCConfigurationList;
