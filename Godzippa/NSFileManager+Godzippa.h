@@ -22,9 +22,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <zlib.h>
-
-#import <Godzippa/GodzippaDefines.h>
+#import "GodzippaDefines.h"
 
 __GODZIPPA_ASSUME_NONNULL_BEGIN
 
