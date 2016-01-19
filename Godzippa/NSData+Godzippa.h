@@ -24,7 +24,7 @@
 
 #import <zlib.h>
 
-#import "GodzippaDefines.h"
+#import <Godzippa/GodzippaDefines.h>
 
 __GODZIPPA_ASSUME_NONNULL_BEGIN
 
